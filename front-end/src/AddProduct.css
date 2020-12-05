@@ -1,0 +1,72 @@
+.addProduct {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.addProduct__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100px;
+}
+
+.addProduct__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.addProduct__container > h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.addProduct__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.addProduct__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.addProduct__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.addProduct__signInButton {
+  /* color: #111; */
+  height: 30px;
+  border-radius: 2px;
+  width: 100%;
+  background: #b1f04b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #7fa834 #5a8549 #3f6421;
+}
+
+.addProduct__registerButton {
+  height: 30px;
+  border-radius: 2px;
+  width: 100%;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgrey;
+}
